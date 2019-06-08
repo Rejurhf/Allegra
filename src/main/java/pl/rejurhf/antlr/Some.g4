@@ -34,7 +34,9 @@ assigment: NAME ASSIGN value;
 
 
 // if --------------------------------------------------------------------------------------
-ifDefinition: IF LEFT_PAREN conditions RIGHT_PAREN BEGIN ifBody (ELSE ifBody)? END;
+ifDefinition: IF LEFT_PAREN conditions RIGHT_PAREN BEGIN ifBody
+    (ELSIF LEFT_PAREN conditions RIGHT_PAREN BEGIN ifBody)*
+    (ELSE ifBody)? END;
 
 ifBody: line*;
 
@@ -48,12 +50,12 @@ relationOperator: ( EQUAL | GREATER_EQUAL | GREATER | LESSER | LESSER_EQUAL);
 
 
 // Others -----------------------------------------------------------------------------------
-value: (subValue | mathOperation);
+value: (subValue | mathOperation | methodCall);
 
 subValue: (STRING_VALUE | subMathValue);
 
 mathOperation: mathOperation operator mathOperation
-    | LEFT_PAREN mathOperation LEFT_PAREN
+    | LEFT_PAREN mathOperation RIGHT_PAREN
     | (MINUS)? subMathValue;
 
 operator: (PLUS | MINUS | MUL | DIV);
@@ -71,6 +73,7 @@ RETURN : 'return' ;
 FUNCTION : 'function' ;
 IF : 'if' ;
 ELSE : 'else' ;
+ELSIF : 'elsif' ;
 PRINTF : 'printf' ;
 TYPE : 'Integer' | 'String' ;
 
@@ -101,49 +104,3 @@ STRING_VALUE : '"' ~["]* '"';
 NAME : [a-zA-Z0-9]+ ;
 NAMEU : [A-Za-z]+[a-zA-Z0-9]* ;
 WS: [ \t\n\r]+ -> skip ;
-
-
-//Sample valid “SomeLanguage” code:
-//
-//class SomeClass {
-//    fun1 {
-//        instruction11
-//        instruction12
-//    }
-//    fun2 {
-//        instruction21
-//        instruction22
-//    }
-//};
-
-//public class MojaKlasa {
-//
-//	private static String nazwa;
-//	private static Integer numer1;
-//	private static Integer numer2;
-//
-//	public static Integer foo(Integer i, String s) {
-//
-//		numer1 = 12+(34*90)/i;
-//		nazwa = s;
-//		System.out.println(nazwa);
-//		numer2 = numer1+(12-6);
-//		System.out.println("Hello World");
-//
-//		return numer2+numer1;
-//	}
-//
-//	public static String bar() {
-//
-//		numer1 = foo(12,"aaaa");
-//
-//		return "test 123";
-//	}
-//
-//	public static void main(String[] args) {
-//
-//		System.out.println(bar());
-//		numer2 = numer1/34;
-//
-//	}
-//}

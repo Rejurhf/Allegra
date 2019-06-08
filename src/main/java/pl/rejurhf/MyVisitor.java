@@ -152,7 +152,7 @@ public class MyVisitor extends SomeBaseVisitor {
         sb.append("(");
         if(ctx.callArguments() != null)
             sb.append(visit(ctx.callArguments()));
-        sb.append(");\n");
+        sb.append(")");
 
         return sb.toString();
     }
@@ -181,6 +181,7 @@ public class MyVisitor extends SomeBaseVisitor {
         }else if(ctx.subLine() != null){
             sb.append(visit(ctx.subLine()));
         }
+        sb.append("\n");
 
         return sb.toString();
     }
@@ -197,18 +198,19 @@ public class MyVisitor extends SomeBaseVisitor {
         }else if(ctx.methodCall() != null){
             sb.append(visit(ctx.methodCall()));
         }
+        sb.append(";");
 
         return sb.toString();
     }
 
     @Override
     public Object visitPrintf(SomeParser.PrintfContext ctx) {
-        return "System.out.println(" + visit(ctx.value()) + ");\n";
+        return "System.out.println(" + visit(ctx.value()) + ")";
     }
 
     @Override
     public Object visitAssigment(SomeParser.AssigmentContext ctx) {
-        return ctx.NAME() + " = " + visit(ctx.value()) + ";\n";
+        return ctx.NAME() + " = " + visit(ctx.value());
     }
 
     // If definition ---------------------------------------------------------------------------------------
@@ -217,11 +219,19 @@ public class MyVisitor extends SomeBaseVisitor {
         StringBuilder sb = new StringBuilder("if(");
 
         // if conditions
-        sb.append(visit(ctx.conditions()));
+        sb.append(visit(ctx.conditions(0)));
         sb.append("){\n");
 
         // if content
         sb.append(visit(ctx.ifBody(0)));
+
+        // elsif
+        for (int i = 1; i < ctx.conditions().size(); ++i){
+            sb.append("\t\t}else if(");
+            sb.append(visit(ctx.conditions(i)));
+            sb.append("){\n");
+            sb.append(visit(ctx.ifBody(i)));
+        }
 
         // else
         if(ctx.ELSE() != null){
@@ -298,6 +308,8 @@ public class MyVisitor extends SomeBaseVisitor {
         }else if(ctx.mathOperation() != null){
             sb.append(visit(ctx.mathOperation()));
 
+        }else if(ctx.methodCall() != null){
+            sb.append(visit(ctx.methodCall()));
         }
 
         return sb.toString();

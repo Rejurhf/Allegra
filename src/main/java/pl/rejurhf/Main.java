@@ -5,8 +5,10 @@ import org.antlr.v4.runtime.tree.ParseTree;
 import pl.rejurhf.generated.SomeLexer;
 import pl.rejurhf.generated.SomeParser;
 
+import java.io.*;
+
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) throws IOException {
         String code = "class SomeClass is\n" +
                 "String str;\n" +
                 "Integer num;\n" +
@@ -35,7 +37,7 @@ public class Main {
                 "funkcja2(\"string\", 4);\n" +
                 "funkcja3(8);\n" +
                 "end";
-        CharStream charStream = new ANTLRInputStream(code);
+        CharStream charStream = new ANTLRInputStream(new FileInputStream("src\\main\\resources\\test.txt"));
         SomeLexer lexer = new SomeLexer(charStream);
         TokenStream tokens = new CommonTokenStream(lexer);
         SomeParser parser = new SomeParser(tokens);
@@ -44,6 +46,28 @@ public class Main {
         MyVisitor visitor = new MyVisitor();
         String result = visitor.visit(tree).toString();
 
+        saveToFile("src\\main\\java\\pl\\rejurhf\\output\\" + tokens.get(1).getText() + ".java", result);
+
+        System.out.println(tokens.get(1).getText());
         System.out.println(result);
+    }
+
+    private static void saveToFile(String path, String body) {
+        try {
+            File outFile = new File(path);
+            if (!outFile.exists()) {
+                if (outFile.createNewFile()) {
+                    FileOutputStream fout = new FileOutputStream(outFile);
+                    fout.write(body.getBytes());
+                    fout.close();
+                }
+            } else {
+                FileOutputStream fout = new FileOutputStream(outFile);
+                fout.write(body.getBytes());
+                fout.close();
+            }
+        } catch (IOException e){
+            System.err.println("Saving to file :" + e.getMessage());
+        }
     }
 }

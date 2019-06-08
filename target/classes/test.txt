@@ -1,0 +1,51 @@
+class MojaKlasa is
+    String nazwa;
+    Integer numer1;
+    Integer numer2;
+
+    function foo(Integer : i, String : s) return Integer is
+    begin
+        numer1 := 12 + (34 * 90) / i;
+        nazwa := s;
+        printf(nazwa);
+        printf("Hello World");
+        if(4 > 5)
+        begin
+            printf("iftest");
+            if(6 < 7)
+            begin
+                printf("tak");
+            end
+        else
+            numer2 := numer1 + (12 - 6);
+            printf(4);
+        end
+
+        return numer2 + numer1;
+    end
+
+    function bar() return String is
+    begin
+        if(4 > 5)
+        begin
+            printf(4);
+        elsif (5 > 4)
+        begin
+            printf(5);
+        end
+
+        return "test 123";
+    end
+
+    function fun() is
+    begin
+        printf("Fun()");
+    end
+
+begin
+    numer1 := 68;
+    numer2 := numer1 / 34 * 3;
+    numer1 := foo(4, "String");
+    printf(bar());
+    fun();
+end

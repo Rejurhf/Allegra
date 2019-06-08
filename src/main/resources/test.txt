@@ -39,7 +39,10 @@ class MojaKlasa is
 
     function fun() is
     begin
-        printf("Fun()");
+        for i in Integer range 0 .. 5
+        begin
+            printf("Fun()");
+        end
     end
 
 begin

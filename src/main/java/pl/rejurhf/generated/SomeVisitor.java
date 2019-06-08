@@ -125,6 +125,12 @@ public interface SomeVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitRelationOperator(SomeParser.RelationOperatorContext ctx);
 	/**
+	 * Visit a parse tree produced by {@link SomeParser#forDefinition}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitForDefinition(SomeParser.ForDefinitionContext ctx);
+	/**
 	 * Visit a parse tree produced by {@link SomeParser#value}.
 	 * @param ctx the parse tree
 	 * @return the visitor result

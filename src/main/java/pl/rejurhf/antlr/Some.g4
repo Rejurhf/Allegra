@@ -24,7 +24,7 @@ main: line*;
 
 
 // Line -----------------------------------------------------------------------------------
-line: (ifDefinition | subLine);
+line: (ifDefinition | forDefinition | subLine);
 
 subLine: (printf | assigment | methodCall) SEMI;
 
@@ -47,6 +47,10 @@ condition: subMathValue relationOperator subMathValue;
 logicOperator: (AND | OR);
 
 relationOperator: ( EQUAL | GREATER_EQUAL | GREATER | LESSER | LESSER_EQUAL);
+
+
+// For --------------------------------------------------------------------------------------
+forDefinition: FOR NAME IN TYPE RANGE INTEGER_VALUE DOTDOT INTEGER_VALUE BEGIN (line)* END;
 
 
 // Others -----------------------------------------------------------------------------------
@@ -75,6 +79,10 @@ IF : 'if' ;
 ELSE : 'else' ;
 ELSIF : 'elsif' ;
 PRINTF : 'printf' ;
+FOR: 'for';
+IN: 'in';
+RANGE: 'range';
+
 TYPE : 'Integer' | 'String' ;
 
 MUL : '*' ;
@@ -98,6 +106,8 @@ LESSER_EQUAL : '<=';
 
 AND : '&&' ;
 OR : '||' ;
+
+DOTDOT: '..';
 
 INTEGER_VALUE : '0' | [1-9][0-9]* ;
 STRING_VALUE : '"' ~["]* '"';

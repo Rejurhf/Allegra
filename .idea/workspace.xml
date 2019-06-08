@@ -3,48 +3,34 @@
   <component name="ChangeListManager">
     <list default="true" id="2131c9ff-0c35-4f55-8b05-21ca5786ec39" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/rejurhf/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/MyVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/rejurhf/MyVisitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/antlr/Some.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/rejurhf/antlr/Some.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/antlr/Test.g4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/Some.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/Some.interp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/Some.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/Some.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/SomeBaseVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/SomeBaseVisitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/SomeLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/SomeLexer.interp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/SomeLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/SomeLexer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/SomeLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/SomeLexer.tokens" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/SomeParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/SomeParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/pl/rejurhf/generated/Test.interp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/pl/rejurhf/generated/Test.tokens" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/pl/rejurhf/generated/TestBaseListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/pl/rejurhf/generated/TestBaseVisitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/pl/rejurhf/generated/TestLexer.interp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/pl/rejurhf/generated/TestLexer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/pl/rejurhf/generated/TestLexer.tokens" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/pl/rejurhf/generated/TestListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/pl/rejurhf/generated/TestParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/pl/rejurhf/generated/TestVisitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/v1/Test.interp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/v1/Test.tokens" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/v1/TestBaseListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/v1/TestBaseVisitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/v1/TestLexer.interp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/v1/TestLexer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/v1/TestLexer.tokens" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/v1/TestListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/v1/TestParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/v1/TestVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/SomeVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/rejurhf/generated/SomeVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rejurhf/output/MojaKlasa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/MyVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/rejurhf/MyVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeBaseVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeBaseVisitor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeLexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeLexer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$ArgumentsContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$ArgumentsContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$AssigmentContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$AssigmentContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$CallArgumentsContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$CallArgumentsContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$ClassDeclarationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$ClassDeclarationContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$ClassNameContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$ClassNameContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$ConditionContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$ConditionContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$ConditionsContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$ConditionsContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$DeclarationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$DeclarationContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$IfBodyContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$IfBodyContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$IfDefinitionContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$IfDefinitionContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$LineContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$LineContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$LogicOperatorContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$LogicOperatorContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$MainContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$MainContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$MathOperationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$MathOperationContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$MethodCallContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$MethodCallContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$MethodContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$MethodContext.class" afterDir="false" />
@@ -57,22 +43,8 @@
       <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$SubValueContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$SubValueContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$ValueContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser$ValueContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/TestBaseListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/TestBaseVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/TestLexer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/TestListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/TestParser$MainContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/TestParser$NameContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/TestParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/TestVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/v1/TestBaseListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/v1/TestBaseVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/v1/TestLexer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/v1/TestListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/v1/TestParser$MainContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/v1/TestParser$NameContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/v1/TestParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/v1/TestVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/rejurhf/generated/SomeVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,14 +58,14 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6836248">
+    <splitter split-orientation="horizontal" split-proportion="0.47725245">
       <split-first>
         <leaf>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/pl/rejurhf/MyVisitor.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="629">
-                  <caret line="200" column="23" selection-start-line="200" selection-start-column="23" selection-end-line="200" selection-end-column="23" />
+                <state relative-caret-position="187">
+                  <caret line="181" column="13" selection-start-line="181" selection-start-column="13" selection-end-line="181" selection-end-column="13" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="method#MyVisitor#0;class#MyVisitor#0" />
@@ -102,7 +74,6 @@
                     <element signature="e#1742#1743#0" expanded="true" />
                     <element signature="e#1785#1786#0" expanded="true" />
                     <element signature="method#visitDeclaration#0;class#MyVisitor#0" />
-                    <element signature="method#visitMain#0;class#MyVisitor#0" />
                     <element signature="method#visitMethod#0;class#MyVisitor#0" />
                     <element signature="method#visitArguments#0;class#MyVisitor#0" />
                     <element signature="method#visitMethodCall#0;class#MyVisitor#0" />
@@ -130,7 +101,7 @@
             <entry file="file://$PROJECT_DIR$/src/main/java/pl/rejurhf/Main.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="289">
-                  <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+                  <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -138,11 +109,20 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/pl/rejurhf/antlr/Some.g4">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="765">
-                  <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+                <state relative-caret-position="839">
+                  <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/pl/rejurhf/output/MojaKlasa.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="187">
+                  <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -151,35 +131,28 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/pl/rejurhf/MyVisitor.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="664">
-                  <caret line="207" column="62" selection-start-line="207" selection-start-column="62" selection-end-line="207" selection-end-column="62" />
+                <state relative-caret-position="1838">
+                  <caret line="289" column="16" selection-start-line="289" selection-start-column="16" selection-end-line="289" selection-end-column="16" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="method#MyVisitor#0;class#MyVisitor#0" />
                     <element signature="method#aggregateResult#0;class#MyVisitor#0" />
                     <element signature="method#visitClassDeclaration#0;class#MyVisitor#0" />
-                    <element signature="e#1742#1743#0" expanded="true" />
-                    <element signature="e#1785#1786#0" expanded="true" />
                     <element signature="method#visitDeclaration#0;class#MyVisitor#0" />
                     <element signature="method#visitMain#0;class#MyVisitor#0" />
-                    <element signature="method#visitMethod#0;class#MyVisitor#0" />
-                    <element signature="e#3824#3825#0" expanded="true" />
-                    <element signature="e#3867#3868#0" expanded="true" />
-                    <element signature="method#visitArguments#0;class#MyVisitor#0" />
                     <element signature="method#visitCallArguments#0;class#MyVisitor#0" />
                     <element signature="method#visitLine#0;class#MyVisitor#0" />
                     <element signature="method#visitSubLine#0;class#MyVisitor#0" />
-                    <element signature="e#6219#6220#0" expanded="true" />
-                    <element signature="e#6285#6286#0" expanded="true" />
                     <element signature="method#visitIfDefinition#0;class#MyVisitor#0" />
                     <element signature="method#visitIfBody#0;class#MyVisitor#0" />
                     <element signature="method#visitConditions#0;class#MyVisitor#0" />
-                    <element signature="method#visitCondition#0;class#MyVisitor#0" />
                     <element signature="method#visitLogicOperator#0;class#MyVisitor#0" />
                     <element signature="method#visitRelationOperator#0;class#MyVisitor#0" />
+                    <element signature="method#visitForDefinition#0;class#MyVisitor#0" />
+                    <element signature="method#visitValue#0;class#MyVisitor#0" />
                     <element signature="method#visitSubValue#0;class#MyVisitor#0" />
                     <element signature="method#visitMathOperation#0;class#MyVisitor#0" />
                     <element signature="method#visitOperator#0;class#MyVisitor#0" />
@@ -192,17 +165,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/resources/test.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/pl/rejurhf/output/MojaKlasa.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
-                  <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+                <state relative-caret-position="697">
+                  <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="44" selection-end-column="11" />
                 </state>
               </provider>
             </entry>
@@ -233,8 +197,8 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/rejurhf/antlr/Test.g4" />
         <option value="$PROJECT_DIR$/src/main/java/pl/rejurhf/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/rejurhf/output/MojaKlasa.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/rejurhf/antlr/Some.g4" />
         <option value="$PROJECT_DIR$/src/main/resources/test.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/rejurhf/antlr/Some.g4" />
         <option value="$PROJECT_DIR$/src/main/java/pl/rejurhf/MyVisitor.java" />
       </list>
     </option>
@@ -318,13 +282,6 @@
               <item name="rejurhf" type="462c0819:PsiDirectoryNode" />
               <item name="output" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="augusta" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kompilatory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -352,6 +309,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Allegra" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -410,12 +368,12 @@
       <workItem from="1559988852605" duration="87000" />
       <workItem from="1559989009551" duration="4395000" />
       <workItem from="1560008163474" duration="474000" />
-      <workItem from="1560015666387" duration="19040000" />
+      <workItem from="1560015666387" duration="20812000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23996000" />
+    <option name="totallyTimeSpent" value="25768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1456" extended-state="6" />
@@ -522,7 +480,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/rejurhf/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -531,51 +489,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/test.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/rejurhf/antlr/Some.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+        <state relative-caret-position="697">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="44" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/rejurhf/output/MojaKlasa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/rejurhf/antlr/Some.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="839">
+          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/rejurhf/MyVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="200" column="23" selection-start-line="200" selection-start-column="23" selection-end-line="200" selection-end-column="23" />
+        <state relative-caret-position="1838">
+          <caret line="289" column="16" selection-start-line="289" selection-start-column="16" selection-end-line="289" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#MyVisitor#0;class#MyVisitor#0" />
             <element signature="method#aggregateResult#0;class#MyVisitor#0" />
             <element signature="method#visitClassDeclaration#0;class#MyVisitor#0" />
-            <element signature="e#1742#1743#0" expanded="true" />
-            <element signature="e#1785#1786#0" expanded="true" />
             <element signature="method#visitDeclaration#0;class#MyVisitor#0" />
             <element signature="method#visitMain#0;class#MyVisitor#0" />
-            <element signature="method#visitMethod#0;class#MyVisitor#0" />
-            <element signature="method#visitArguments#0;class#MyVisitor#0" />
-            <element signature="method#visitMethodCall#0;class#MyVisitor#0" />
             <element signature="method#visitCallArguments#0;class#MyVisitor#0" />
-            <element signature="e#6219#6220#0" expanded="true" />
-            <element signature="e#6284#6285#0" expanded="true" />
-            <element signature="e#6367#6368#0" expanded="true" />
-            <element signature="e#6429#6430#0" expanded="true" />
+            <element signature="method#visitLine#0;class#MyVisitor#0" />
+            <element signature="method#visitSubLine#0;class#MyVisitor#0" />
+            <element signature="method#visitIfDefinition#0;class#MyVisitor#0" />
             <element signature="method#visitIfBody#0;class#MyVisitor#0" />
             <element signature="method#visitConditions#0;class#MyVisitor#0" />
-            <element signature="method#visitCondition#0;class#MyVisitor#0" />
             <element signature="method#visitLogicOperator#0;class#MyVisitor#0" />
             <element signature="method#visitRelationOperator#0;class#MyVisitor#0" />
+            <element signature="method#visitForDefinition#0;class#MyVisitor#0" />
             <element signature="method#visitValue#0;class#MyVisitor#0" />
             <element signature="method#visitSubValue#0;class#MyVisitor#0" />
             <element signature="method#visitMathOperation#0;class#MyVisitor#0" />

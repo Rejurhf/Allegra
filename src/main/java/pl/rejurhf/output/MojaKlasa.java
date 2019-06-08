@@ -16,9 +16,9 @@ public class MojaKlasa{
 		nazwa = s;
 		System.out.println(nazwa);
 		System.out.println("Hello World");
-		if(4>5){
+		if(4 > 5){
 			System.out.println("iftest");
-			if(6<7){
+			if(6 < 7){
 			System.out.println("tak");
 		}
 
@@ -31,9 +31,9 @@ public class MojaKlasa{
 	}
 
 	public static String bar(){
-		if(4>5){
+		if(4 > 5){
 			System.out.println(4);
-		}else if(5>4){
+		}else if(5 > 4){
 			System.out.println(5);
 		}
 
@@ -41,6 +41,9 @@ public class MojaKlasa{
 	}
 
 	public static void fun(){
-		System.out.println("Fun()");
+		for(int i = 0; i < 5; ++i){
+			System.out.println("Fun()");
+		}
+
 	}
 }

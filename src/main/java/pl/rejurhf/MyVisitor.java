@@ -26,6 +26,8 @@ public class MyVisitor extends SomeBaseVisitor {
         return aggregate.toString() + nextResult.toString();
     }
 
+
+    // class declaration ------------------------------------------------------------------------------
     @Override
     public Object visitClassDeclaration(SomeParser.ClassDeclarationContext ctx) {
         // class header
@@ -56,11 +58,13 @@ public class MyVisitor extends SomeBaseVisitor {
         return sb.toString();
     }
 
+
     // class header -----------------------------------------------------------------------------------
     @Override
     public Object visitClassName(SomeParser.ClassNameContext ctx) {
         return ctx.NAME().getText();
     }
+
 
     // class declarations -----------------------------------------------------------------------------
     @Override
@@ -75,6 +79,7 @@ public class MyVisitor extends SomeBaseVisitor {
         return sb.toString();
     }
 
+
     // class main --------------------------------------------------------------------------------------
     @Override
     public Object visitMain(SomeParser.MainContext ctx) {
@@ -87,6 +92,7 @@ public class MyVisitor extends SomeBaseVisitor {
 
         return sb.toString();
     }
+
 
     // class methods -----------------------------------------------------------------------------------
     @Override
@@ -171,6 +177,7 @@ public class MyVisitor extends SomeBaseVisitor {
         return sb.toString();
     }
 
+
     // Line ----------------------------------------------------------------------------------------------
     @Override
     public Object visitLine(SomeParser.LineContext ctx) {
@@ -178,9 +185,14 @@ public class MyVisitor extends SomeBaseVisitor {
         sb.append("\t");
         if(ctx.ifDefinition() != null){
             sb.append(visit(ctx.ifDefinition()));
+
         }else if(ctx.subLine() != null){
             sb.append(visit(ctx.subLine()));
+
+        }else if(ctx.forDefinition() != null){
+            sb.append(visit(ctx.forDefinition()));
         }
+
         sb.append("\n");
 
         return sb.toString();
@@ -212,6 +224,7 @@ public class MyVisitor extends SomeBaseVisitor {
     public Object visitAssigment(SomeParser.AssigmentContext ctx) {
         return ctx.NAME() + " = " + visit(ctx.value());
     }
+
 
     // If definition ---------------------------------------------------------------------------------------
     @Override
@@ -273,7 +286,8 @@ public class MyVisitor extends SomeBaseVisitor {
 
     @Override
     public Object visitCondition(SomeParser.ConditionContext ctx) {
-        return visit(ctx.subMathValue(0)).toString() + visit(ctx.relationOperator()) + visit(ctx.subMathValue(1));
+        return visit(ctx.subMathValue(0)).toString() + " " +
+                visit(ctx.relationOperator()) + " " + visit(ctx.subMathValue(1));
     }
 
     @Override
@@ -296,6 +310,32 @@ public class MyVisitor extends SomeBaseVisitor {
             return "<";
         else
             return "<=";
+    }
+
+
+    // For ---------------------------------------------------------------------------------------------------
+    @Override
+    public Object visitForDefinition(SomeParser.ForDefinitionContext ctx) {
+        StringBuilder sb = new StringBuilder("for(int ");
+        sb.append(ctx.NAME());
+        sb.append(" = ");
+        sb.append(ctx.INTEGER_VALUE(0));
+        sb.append("; ");
+        sb.append(ctx.NAME());
+        sb.append(" < ");
+        sb.append(ctx.INTEGER_VALUE(1));
+        sb.append("; ++");
+        sb.append(ctx.NAME());
+        sb.append("){\n");
+
+        for (int i = 0; i < ctx.line().size(); ++i){
+            sb.append("\t\t");
+            sb.append(visit(ctx.line(i)));
+        }
+
+        sb.append("\t\t}\n");
+
+        return sb.toString();
     }
 
     // Value -----------------------------------------------------------------------------------------------
@@ -324,6 +364,7 @@ public class MyVisitor extends SomeBaseVisitor {
 
         return "";
     }
+
 
     // Math operation ----------------------------------------------------------------------------------------
     @Override
